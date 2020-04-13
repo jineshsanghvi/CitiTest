@@ -1,0 +1,11 @@
+#Security, Position, Identifier, qty, businessDate
+Stock, Long, AAPL, 10, 04/09/2020
+Stock, Long, AAPL, 5, 04/09/2020
+Stock, Long, NFLX, 7, 04/09/2020
+Stock, Short, NFLX, 5, 04/09/2020
+Stock, Long, AAPL, 20, 04/08/2020
+Stock, Short, AAPL, 15, 04/08/2020
+Stock, Short, NFLX, 25, 04/08/2020
+Stock, Long, NFLX, 5, 04/08/2020
+Stock, Short, AMZN, 10, 04/08/2020
+Stock, Short, AMZN, 15, 04/08/2020
