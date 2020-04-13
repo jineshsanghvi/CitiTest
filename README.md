@@ -5,6 +5,8 @@ from tableA a
 inner join tableB b on (a.business_date = b.business_date)
 group by  b.position
 
+INSTRUCTIONS
+
 1. code location - src\main\java\com\jinesh\test\PRG1\PRG1.java
 2. It uses 2 beans TabA.java and TabB.java, both in the same folder as PRG1.java
 3. Objects of TabA are loaded from src\main\resources\com\jinesh\test\PRG1\prg1-tabA-input.txt
@@ -32,6 +34,8 @@ The query provided was missing group by on business_date in the join table aa. b
 ASSUMPTIONS
 1. I HAVE ASSUMED, that business_date is on the GROUP BY and SELECT clause for the join table aa.
 2. All columns have non null values.
+
+INSTRUCTIONS
 
 1. code location - src\main\java\com\jinesh\test\PRG2\PRG2.java
 2. It uses bean Table1.java which maps all the fields in the query and is located in the same folder.
